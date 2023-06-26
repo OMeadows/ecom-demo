@@ -1,4 +1,4 @@
-# E-Commerce Summer Product Ratings and Sales Demo
+# E-Commerce
 <br>
 Kaggle Datasets to be joined - <i> https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce </i>
                              - <i> https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist </i>
