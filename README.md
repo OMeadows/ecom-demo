@@ -7,6 +7,13 @@ Kaggle Datasets to be joined - <i> https://www.kaggle.com/datasets/olistbr/brazi
 The first dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. Its features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers. As well as a geolocation dataset that relates Brazilian zip codes to lat/lng coordinates.
 The second dataset as information of 8k Marketing Qualified Leads (MQLs) that requested contact between Jun. 1st 2017 and Jun 1st 2018. They were randomly sampled from the total of MQLs.
 
+<br><br>
+Research Questions:<br><br>
+1.	Funnel – Where do we lose people on the journey to transaction? How can we improve this?
+2.	How can we forecast demand and predict churn?
+3.	How can we increase sales through recommending products?
+4.	How can we use reviews/ratings to improve sales/cross-selling and identify whether a product will sell or not?
+
 
 <br><br>
 Research Ideas:<br><br>
@@ -14,8 +21,8 @@ NLP:
 This dataset offers a supreme environment to parse out the reviews text through its multiple dimensions.
 -	NLP: analyse textual reviews and extract insights
 -	Sentiment analysis, correlation between sentiment and sales performance
-- Reviews are in Brazillian
-- 
+- Reviews are in Brazilian
+  
 Clustering:
 Some customers didn't write a review. But why are they happy or mad?
 -	Clustering: Group products based on their attributes to discover inherent patterns or segments in the dataset, uncover distinct groups, analyse characteristics
