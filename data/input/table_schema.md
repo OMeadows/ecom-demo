@@ -49,13 +49,13 @@
 #### Order Items
 
 <b>Table Description</b>: <br>This dataset includes data about the items purchased within each order.
+<br> <br>
+<u>Example:</u> <br>
+- The order_id = 00143d0f86d6fbd9f9b38ab440ac16f5 has 3 items (same product). Each item has the freight calculated accordingly to its measures and weight. To get the total freight value for each order you just have to sum.
 <br>
-Example: <br>
-The order_id = 00143d0f86d6fbd9f9b38ab440ac16f5 has 3 items (same product). Each item has the freight calculated accordingly to its measures and weight. To get the total freight value for each order you just have to sum.
-<br>
-The total order_item value is: 21.33 * 3 = 63.99<br>
-The total freight value is: 15.10 * 3 = 45.30<br>
-The total order value (product + freight) is: 45.30 + 63.99 = 109.29
+- The total order_item value is: 21.33 * 3 = 63.99<br>
+- The total freight value is: 15.10 * 3 = 45.30<br>
+- The total order value (product + freight) is: 45.30 + 63.99 = 109.29
 
 |Column Name|Description|
 |:---|:---|
