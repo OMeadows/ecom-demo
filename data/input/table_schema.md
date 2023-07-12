@@ -139,7 +139,7 @@ After a customer purchases the product from Olist Store a seller gets notified t
 
 ### Products
 
-<b>Table Description</b>: <br>This dataset includes data about the products sold by Olist|
+<b>Table Description</b>: <br>This dataset includes data about the products sold by Olist
 
 |Column Name|Description|
 |:---|:---|
