@@ -2,7 +2,7 @@
 
 ### Sellers
 
-<b>Table Description</b>: <br>This dataset includes data about the sellers that fulfilled orders made at Olist. Use it to find the seller location and to identify which seller fulfilled each product.
+<u>Table Description</u>: <br>This dataset includes data about the sellers that fulfilled orders made at Olist. Use it to find the seller location and to identify which seller fulfilled each product.
 
 |Column Name|Description|
 |:---|:---|
@@ -13,7 +13,7 @@
 
 ### Marketing Qualified Leads
 
-<b>Table Description</b>: <br>After a lead fills in a form at a landing page, a filter is made to select the ones that are qualified to sell their products at Olist. They are the Marketing Qualified Leads (MQLs).
+<u>Table Description</u>: <br>After a lead fills in a form at a landing page, a filter is made to select the ones that are qualified to sell their products at Olist. They are the Marketing Qualified Leads (MQLs).
 
 |Column Name|Description|
 |:---|:---|
@@ -24,7 +24,7 @@
 
 #### Product Category Name Translation
 
-<b>Table Description</b>: <br>Translates the product_category_name to english.
+<u>Table Description</u>: <br>Translates the product_category_name to english.
 
 |Column Name|Description|
 |:---|:---|
@@ -33,7 +33,7 @@
 
 #### Orders
 
-<b>Table Description</b>: <br>This is the core dataset. From each order you might find all other information.
+<u>Table Description</u>: <br>This is the core dataset. From each order you might find all other information.
 
 |Column Name|Description|
 |:---|:---|
@@ -48,7 +48,7 @@
 
 #### Order Items
 
-<b>Table Description</b>: <br>This dataset includes data about the items purchased within each order.
+<u>Table Description</u>: <br>This dataset includes data about the items purchased within each order.
 <br> <br>
 <u>Example:</u> <br>
 - The order_id = 00143d0f86d6fbd9f9b38ab440ac16f5 has 3 items (same product). Each item has the freight calculated accordingly to its measures and weight. To get the total freight value for each order you just have to sum.
@@ -69,7 +69,7 @@
 
 #### Customers
 
-<b>Table Description</b>: <br>This dataset has information about the customer and its location. Use it to identify unique customers in the orders dataset and to find the orders delivery location.
+<u>Table Description</u>: <br>This dataset has information about the customer and its location. Use it to identify unique customers in the orders dataset and to find the orders delivery location.
 <br>
 At our system each order is assigned to a unique customer_id. This means that the same customer will get different ids for different orders. The purpose of having a customer_unique_id on the dataset is to allow you to identify customers that made repurchases at the store. Otherwise you would find that each order had a different customer associated with.
 
@@ -83,7 +83,7 @@ At our system each order is assigned to a unique customer_id. This means that th
 
 #### Geolocation
 
-<b>Table Description</b>: <br>This dataset has information Brazilian zip codes and its lat/lng coordinates. Use it to plot maps and find distances between sellers and customers.
+<u>Table Description</u>: <br>This dataset has information Brazilian zip codes and its lat/lng coordinates. Use it to plot maps and find distances between sellers and customers.
 
 |Column Name|Description|
 |:---|:---|
@@ -95,7 +95,7 @@ At our system each order is assigned to a unique customer_id. This means that th
 
 #### Order Payments
 
-<b>Table Description</b>: <br>This dataset includes data about the orders payment options.
+<u>Table Description</u>: <br>This dataset includes data about the orders payment options.
 
 |Column Name|Description|
 |:---|:---|
@@ -107,7 +107,7 @@ At our system each order is assigned to a unique customer_id. This means that th
 
 #### Closed Deals
 
-<b>Table Description</b>: <br>After a qualified lead fills in a form at a landing page he is contacted by a Sales Development Representative. At this step some information is checked and more information about the lead is gathered.
+<u>Table Description</u>: <br>After a qualified lead fills in a form at a landing page he is contacted by a Sales Development Representative. At this step some information is checked and more information about the lead is gathered.
 
 |Column Name|Description|
 |:---|:---|
@@ -124,7 +124,7 @@ At our system each order is assigned to a unique customer_id. This means that th
 
 #### Order Reviews
 
-<b>Table Description</b>: <br>This dataset includes data about the reviews made by the customers.
+<u>Table Description</u>: <br>This dataset includes data about the reviews made by the customers.
 <br>
 After a customer purchases the product from Olist Store a seller gets notified to fulfill that order. Once the customer receives the product, or the estimated delivery date is due, the customer gets a satisfaction survey by email where he can give a note for the purchase experience and write down some comments.
 
@@ -140,7 +140,7 @@ After a customer purchases the product from Olist Store a seller gets notified t
 
 #### Products
 
-<b>Table Description</b>: <br>This dataset includes data about the products sold by Olist|
+<u>Table Description</u>: <br>This dataset includes data about the products sold by Olist|
 
 |Column Name|Description|
 |:---|:---|
